@@ -8,17 +8,20 @@
 <body>
 <h1>UNIVERSIDAD NACIONAL DE CHIMBORAZO</h1>
 <h1>Sitemas Embebidos</h1>
-<p>Decimo semestre</p>
-
-<button id='led1' onclick="accionled1(x,y);">Enciender/apagar led 1</button>
-<button id='led2' onclick="accionled2(x,y);">Enciender/apagar led 2</button>
-
+<p>Bienvenido: Ingrese su pin de acceso</p>
+			<input type="text" id="datos">
+			<button type="button" id="enviar">ENVIAR</button>
+			<ul id="ver"></ul>
+			<p>Restablecer contraseña</p>
+			<input type="text" id="datos">
+			<button type="button" id="enviar">ENVIAR</button>
+			<ul id="ver"></ul>
 <h2>Estado led 1:</h2><h2 id="estado1">----</h2>
 <h2>Estado led 2:</h2><h2 id="estado2">----</h2>
 <button id = 'LED1'type="button" onclick="LED1_On();">
-LED1 ON!</button>
-<button id = 'LED2' type="button" onclick="LED1_Off();">
-LED1_OFF!</button>
+Mostrar Historial!</button>
+<h2></h2><h2 id="his">----</h2>
+
 <script>
 
 /*function LED1_On() {
